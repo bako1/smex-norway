@@ -1,0 +1,6 @@
+[build]
+command = "ng build && ng run smex-norway:prerender"
+publish = "dist/smex-norway/browser"
+
+[[plugins]]
+package = "@netlify/angular-runtime"
